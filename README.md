@@ -35,6 +35,6 @@ As a deliverable of sprint 0, you will be asked to compare these frameworks.  Yo
 1. Create an Azure account using your CMU credentials.  In recitation, we will help you in obtaining credits for running your app.
 
 2. Using your Azure credentials, follow [these instructions](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/docker-machine) to manually setup a Virtual Machine suitable for running Docker **with the following considerations**:
-* Instead of `myvm` use `project1` as your Docker Machine name.
-* **stop before the step "run a container"**.
-* Instead, run `mkdir ./azure && cp -r "$DOCKER_CERT_PATH" ./azure`to copy your deployment certificates into your repository.  This should enable automatic deployment via Travis CI.
+   * Instead of `myvm` use `project1` as your Docker Machine name.
+   * **stop before the step "run a container"**.
+   * Instead, run `mkdir ./azure && cp -r "$DOCKER_CERT_PATH" ./azure`to copy your deployment certificates into your repository.  This should enable automatic deployment via Travis CI.
