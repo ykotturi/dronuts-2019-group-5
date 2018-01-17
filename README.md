@@ -1,8 +1,10 @@
 # dronut-starter
-In order to setup your project repository, complete the following steps during Sprint 0:
+In order to get ready to write productive code, complete the following steps during Sprint 0:
 
 ### Repository Setup
 1. Create a new GitHub repository for your team using [https://classroom.github.com/g/PFQUDYxv](GitHub classroom).  Subsequent members should choose to join an existing team using the same link.
+
+2. In addition, you should setup any tools needed for collaboration, issue tracking and project managment; Slack, Jira, GitHub Issues, Asana, whatever it is your team would like to use.
 
 ### Travis CI
 1. Enable travis-ci.com for this repository.  To do this, go to the [travis website](travis-ci.com), and grant Travis permissions over your repository.
