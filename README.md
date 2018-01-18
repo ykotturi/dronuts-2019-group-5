@@ -3,6 +3,7 @@ In order to get ready to write productive code, complete the following steps dur
 
 ### Repository Setup
 1. Create a new GitHub repository for your team using [https://classroom.github.com/g/PFQUDYxv](GitHub classroom).  Subsequent members should choose to join an existing team using the same link.
+TODO: expicitly talk about putting it in our class org
 
 2. In addition, you should setup any tools needed for collaboration, issue tracking and project managment; Slack, Jira, GitHub Issues, Asana, whatever it is your team would like to use.
 
@@ -25,8 +26,11 @@ As a deliverable of sprint 0, you will be asked to compare these frameworks.  Yo
 1. You should install a linter for your repository, to help manage code style.  I highly recommend [eslint](https://eslint.org/docs/user-guide/getting-started).
 
 2. Because NodeJS projects have many dependencies, it is massively beneficial to use a tool to detect dependency updates and alert you as to potential vulnerabilities.  You should consider using [GreenKeeper](https://greenkeeper.io/) [David](https://david-dm.org/) or [requires.io](https://requires.io/).
+TODO: pick one here to reccomend
 
 3. You should setup a test framework within your application to help with later test-driven development.  I would highly suggesting using the [Mocha](https://mochajs.org/) framework together with [Chai](http://chaijs.com/), regardless of which web framework you choose.
+
+TODO: Add confirmation for each of these.
 
 **All of your QA tools should be integrated with TravisCI, and documented in your project's readme.**
 
