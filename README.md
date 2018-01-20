@@ -2,13 +2,13 @@
 In order to get ready to write productive code, complete the following steps during Sprint 0:
 
 ### Repository Setup
-1. Create a new GitHub repository for your team using [https://classroom.github.com/g/PFQUDYxv](GitHub classroom).  Subsequent members should choose to join an existing team using the same link.
+1. Create a new GitHub repository for your team using [Github classroom](https://classroom.github.com/g/PFQUDYxv).  Subsequent members should choose to join an existing team using the same link.
 TODO: expicitly talk about putting it in our class org
 
 2. In addition, you should setup any tools needed for collaboration, issue tracking and project managment; Slack, Jira, GitHub Issues, Asana, whatever it is your team would like to use.
 
 ### Travis CI
-1. Enable travis-ci.com for this repository.  To do this, go to the [travis website](travis-ci.com), and grant Travis permissions over your repository.
+1. Enable travis-ci.com for this repository.  To do this, go to the [travis website](https://travis-ci.com), and grant Travis permissions over your repository.
 
 ### Choose a Web Framework and Install It
 Within the NodeJS runtime, there a many frameworks for creating
