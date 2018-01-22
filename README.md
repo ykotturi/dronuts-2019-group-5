@@ -75,5 +75,9 @@ As a deliverable of sprint 0, you will be asked to compare these frameworks.  Yo
 
 2. Using your Azure credentials, follow [these instructions](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/docker-machine) to manually setup a Virtual Machine suitable for running Docker **with the following considerations**:
    * Instead of `myvm` use `project1` as your Docker Machine name.
+   * Use "Standard_B1s" as the plan name / VM size.
    * **stop before the step "run a container"**.
-   * Instead, run `mkdir ./azure && cp -r "$DOCKER_CERT_PATH" ./azure`to copy your deployment certificates into your repository.  This should enable automatic deployment via Travis CI.
+   * Copy the IP address of your VM into `docker-compose.yml`
+   * Run `mkdir ./azure && cp -r "$DOCKER_CERT_PATH" ./azure`to copy your deployment certificates into your repository.
+   
+   This should enable automatic deployment via Travis CI!
