@@ -48,11 +48,25 @@ As a deliverable of sprint 0, you will be asked to compare these frameworks.  Yo
       > ❤️  Your modules look amazing. Keep up the great work. ❤️
       >  ```
 
-3. You should setup a test framework within your application to help with later test-driven development.  I would highly suggesting using the [Mocha](https://mochajs.org/) framework together with [Chai](http://chaijs.com/), regardless of which web framework you choose.
+3. You should setup a test framework within your application to help with later test-driven development.  I would highly suggesting using the [Mocha](https://mochajs.org/) framework together with [Chai](http://chaijs.com/), regardless of which web framework you choose.  Once installed, write a single test, which doesn't actually test anything (besides that your tests run).
 
-TODO: Add confirmation for each of these.
+      > Success Condition:
+      > ```
+      > $ npm test
+      > > dronut-team-test@1.0.0 test /home/derekbro/Projects/dronut-starter
+      > > mocha test/index.js && eslint . && npm-check
+      > 
+      >  Sample Test Suite
+      >   ✓ Should be able to run a test
+      >
+      > 1 passing (5ms)
+      >
+      > ❤️  Your modules look amazing. Keep up the great work. ❤️
+      >  ```
 
-**All of your QA tools should be integrated with TravisCI, and documented in your project's readme.**
+4. Verify that the above tools are executed by TravisCI.
+
+5. Document the above tools in your README.  I also recommend [embedding the build status image](https://docs.travis-ci.com/user/status-images/) from Travis CI, to make it easier to track the status of your build.
 
 ### Docker
 1. Although Docker should already be configured (see `Dockerfile` and `docker-compose.yml`) as neccessary, you may need to install the Docker Daemon on your machine to properly complete the assignment.  
