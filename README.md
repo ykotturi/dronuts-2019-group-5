@@ -10,6 +10,11 @@ TODO: expicitly talk about putting it in our class org
 ### Travis CI
 1. Enable travis-ci.com for this repository.  To do this, go to the [travis website](https://travis-ci.com), and grant Travis permissions over your repository.
 
+### Initialize NodeJS/NPM
+1. If you haven't already, install NodeJS and NPM on your computer.
+
+2. Initialize your repository for NPM by running `npm init`.  This will generate a `package.json` file in your repository.
+
 ### Choose a Web Framework and Install It
 Within the NodeJS runtime, there a many frameworks for creating
 server applications.  For the purposes of this assignment, there are two options you should consider:
@@ -25,8 +30,23 @@ As a deliverable of sprint 0, you will be asked to compare these frameworks.  Yo
 ### QA Tools
 1. You should install a linter for your repository, to help manage code style.  I highly recommend [eslint](https://eslint.org/docs/user-guide/getting-started).
 
-2. Because NodeJS projects have many dependencies, it is massively beneficial to use a tool to detect dependency updates and alert you as to potential vulnerabilities.  You should consider using [GreenKeeper](https://greenkeeper.io/) [David](https://david-dm.org/) or [requires.io](https://requires.io/).
-TODO: pick one here to reccomend
+      > Success Condition:
+      > ```
+      > $ npm test
+      > > dronut-team-test@1.0.0 test /home/derekbro/Projects/dronut-starter
+      > > eslint .
+      >  ```
+
+2. Because NodeJS projects have many dependencies, it is massively beneficial to use a tool to detect dependency updates and alert you as to potential vulnerabilities.  Normally, I would recommend using a SaaS tool like [GreenKeeper](https://greenkeeper.io/) or [requires.io](https://requires.io/).  However, as your repository is private, these tools require payment.  For this project you should install [npm-check](https://www.npmjs.com/package/npm-check).
+
+      > Success Condition:
+      > ```
+      > $ npm test
+      > > dronut-team-test@1.0.0 test /home/derekbro/Projects/dronut-starter
+      > > eslint . && npm-check
+      >
+      > ❤️  Your modules look amazing. Keep up the great work. ❤️
+      >  ```
 
 3. You should setup a test framework within your application to help with later test-driven development.  I would highly suggesting using the [Mocha](https://mochajs.org/) framework together with [Chai](http://chaijs.com/), regardless of which web framework you choose.
 
