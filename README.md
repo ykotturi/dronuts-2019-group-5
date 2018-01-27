@@ -77,7 +77,7 @@ As a deliverable of sprint 0, you will be asked to compare these frameworks.  Yo
    * Instead of `myvm` use `project1` as your Docker Machine name.
    * Use "Standard_A1" as the plan name / VM size.
    * **stop before the step "run a container"**.
-   * Copy the IP address of your VM into `docker-compose.yml`
+   * Copy the IP address of your VM into `.travis.yml`
    * Run `cp -r "$DOCKER_CERT_PATH" ./azure`to copy your deployment certificates into your repository.
    
    This should enable automatic deployment via Travis CI!
