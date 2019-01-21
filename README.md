@@ -125,7 +125,7 @@ locally.
     $repository_name
      ```
   * **stop before the step "run a container"**.
-  * Copy the IP address of your VM into `.travis.yml`
+  * Copy the IP address of your VM and your *$repository_name* (i.e. project/machine-name) into `.travis.yml`
   * If you've set that ENV var, Run `cp -r "$DOCKER_CERT_PATH" ./azure`to copy your deployment certificates
     into your repository. Otherwise, you can run `cp -r ~/.docker/machine/machines/
 
