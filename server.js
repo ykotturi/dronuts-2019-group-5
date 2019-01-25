@@ -1,9 +1,8 @@
-// From https://expressjs.com/en/starter/hello-world.html
+// From http://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/
 
-const express = require('express')
-const app = express()
+const app = require('./app')
 const port = 3000
 
-app.get('/', (req, res) => res.send('Hello World!'))
-
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
