@@ -3,6 +3,10 @@
 [![Build Status](https://travis-ci.com/CMU-17-356/dronuts-2019-group-5.svg?branch=master)](https://travis-ci.com/CMU-17-356/dronuts-2019-group-5)
 [![Greenkeeper badge](https://badges.greenkeeper.io/CMU-17-356/dronuts-2019-group-5.svg)](https://greenkeeper.io/)
 
+## Links
+Site: http://40.78.84.106:3000/
+Issue Tracking: https://trello.com/b/0sPIIyJv/17-356-product-backlog
+
 ## Quickstart
 ```shell
 ## Setup
