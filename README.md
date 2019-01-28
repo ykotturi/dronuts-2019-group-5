@@ -24,7 +24,7 @@ npm run test
 ```
 
 ## Tools used
-- Language: Typescript
+- Language: Typescript (Node v8.0.0, npm 5.0.0)
 - Framework: Express
 - Linting: TSLint
 - Testing: Jest
@@ -33,4 +33,3 @@ npm run test
 
 ## References
 - Microsoft's [TypeScript-Node-Starter](https://github.com/Microsoft/TypeScript-Node-Starter/)
--
