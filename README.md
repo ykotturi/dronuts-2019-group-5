@@ -1,4 +1,7 @@
 # dronut-starter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/CMU-17-356/dronuts-2019-group-5.svg)](https://greenkeeper.io/)
+
 In order to get ready to write productive code, complete the following steps during Sprint 0:
 
 ### Repository Setup
