@@ -1,0 +1,30 @@
+{
+  "name": "dronuts-2019-group-5",
+  "version": "1.0.0",
+  "description": "In order to get ready to write productive code, complete the following steps during Sprint 0:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CMU-17-356/dronuts-2019-group-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMU-17-356/dronuts-2019-group-5/issues"
+  },
+  "homepage": "https://github.com/CMU-17-356/dronuts-2019-group-5#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "loopback": "^3.24.2",
+    "npm-check": "^5.9.0"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
